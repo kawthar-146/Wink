@@ -1,0 +1,59 @@
+{
+  "name": "wink",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://winktr.winkwink-tr.com/",
+  "dependencies": {
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@headlessui/react": "^1.5.0",
+    "@material-ui/core": "^4.12.4",
+    "@mui/material": "^5.5.3",
+    "@progress/kendo-data-query": "^1.5.6",
+    "@progress/kendo-react-dropdowns": "^5.2.0",
+    "@testing-library/jest-dom": "^5.16.3",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.1.3",
+    "i18n-iso-countries": "^7.4.0",
+    "mdb-react-ui-kit": "^3.0.0",
+    "mdbreact": "^5.2.0",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.2.2",
+    "react-dom": "^17.0.2",
+    "react-headless-tabs": "^4.0.2",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.3.1",
+    "react-native-searchable-country-dropdown": "^1.0.1",
+    "react-owl-carousel": "^2.3.3",
+    "react-router-dom": "^6.2.2",
+    "react-scripts": "5.0.0",
+    "sass": "^1.49.11",
+    "swiper": "^8.0.7",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

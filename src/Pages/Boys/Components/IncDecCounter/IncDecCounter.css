@@ -1,0 +1,93 @@
+/* -- quantity box -- */
+
+.quantity {
+    display: inline-block; }
+   
+   .quantity .input-text.qty {
+    width: 35px;
+    height: 39px;
+    padding: 0 5px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-top: -4px;
+   }
+   .quantity.buttons_added .btnpm{
+       display: flex;
+       width: 100px;
+       height: 40px;
+       border-radius: 25px;
+       background-color: transparent;
+       border-color: #868686;
+       border: 1px solid #868686;
+   }
+   .quantity.buttons_added {
+    text-align: left;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: top;
+    margin-top: 30px ;
+    margin-left: 100px;
+ }
+   
+   .quantity.buttons_added input {
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+    box-shadow: none;
+   
+   }
+   
+   .quantity.buttons_added .minus,
+   .quantity.buttons_added .plus {
+    padding: 7px 10px 8px;
+    height: 41px;
+    background-color: #ffffff;
+    border: 1px solid #efefef;
+    cursor:pointer;}
+   
+    .quantity.buttons_added .minus {
+        border-right: 0;
+        border-radius: 40%;
+        margin-left: 0px;
+        margin-top: -1px;
+        height: 30px;
+        width: 30px;
+        border-color: transparent;
+    }
+   
+   .quantity.buttons_added .plus {
+    border-left: 0; 
+    margin-left: -6px;
+    margin-right: 10px;
+    border-radius: 40%;
+    margin-top: -1px;
+    height: 30px;
+    width: 30px;
+    border-color: transparent;}
+    .quantity .input-text.qty {
+        background-color: transparent;
+        border: 1px solid transparent;
+        height: 39px;
+        padding: 0 5px;
+        text-align: center;
+        width: 35px;
+        margin-left: -5px;
+    }
+   
+   .quantity.buttons_added .minus:hover,
+   .quantity.buttons_added .plus:hover {
+   color:#ff2556;
+}
+   
+   .quantity input::-webkit-outer-spin-button,
+   .quantity input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0; }
+    
+    .quantity.buttons_added .minus:focus,
+   .quantity.buttons_added .plus:focus {
+    outline: none; }
+   
+   
